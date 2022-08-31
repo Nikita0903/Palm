@@ -1,0 +1,11 @@
+public class ArrayListExample 
+{
+    public static void main(String[] args) 
+    {
+        ArrayList<String> namesList = new ArrayList<String>(Arrays.asList( "eleven", "nancy", "fedore") );
+         
+        System.out.println(namesList);  
+        namesList.remove(2);
+        System.out.println(namesList);  
+    }
+}
